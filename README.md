@@ -22,13 +22,13 @@ The Meesho Clone is a web application that mimics the popular e-commerce platfor
 
 ## Features
 
-- User authentication: Users can create accounts, log in, and log out.
-- Product catalog: Users can view a list of products available for purchase.
-- Product details: Users can click on a product to view its details, including description, price, and reviews.
-- Add to cart: Users can add products to their shopping cart.
-- Cart management: Users can view and modify the items in their cart.
-- Checkout: Users can proceed to checkout and complete their purchase.
-- Search functionality: Users can search for products by name or category.
+- `User authentication:` Users can create accounts, log in, and log out.
+- `Product catalog:` Users can view a list of products available for purchase.
+- `Product details:` Users can click on a product to view its details, including description, price, and reviews.
+- `Add to cart:` Users can add products to their shopping cart.
+- `Cart management:` Users can view and modify the items in their cart.
+- `Checkout:` Users can proceed to checkout and complete their purchase.
+-- `Search functionality:` Users can search for products by name or category.
 
 ## Technologies Used
 
