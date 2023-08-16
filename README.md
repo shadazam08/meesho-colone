@@ -1,6 +1,6 @@
 # Meesho Clone Website
 
-This project is an Meesho Clone Website developed as part of the IBM SkillBuild Internship. The website is built using HTML, CSS, JavaScript and ReactJs technologies.
+This project is an Meesho Clone Website developed as part of the `Newton School`. The website is built using HTML, CSS, JavaScript and ReactJs technologies.
 
 ## Table of Contents
 
