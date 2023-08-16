@@ -279,7 +279,7 @@ let Aside = styled.aside`
     padding: 10px;
   }
   .main-para {
-    color: #f43397;
+    color: #9f2089;
     height: 15px;
     overflow: hidden;
     padding: 5px;
