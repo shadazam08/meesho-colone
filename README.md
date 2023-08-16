@@ -1,6 +1,6 @@
 # Meesho Clone Website
 
-This project is an Meesho Clone Website developed as part of the `Newton School`. The website is built using HTML, CSS, JavaScript and ReactJs technologies.
+This project is an Meesho Clone Website developed. The website is built using `HTML, CSS, JavaScript and ReactJs, Redux, Auth0` technologies.
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ This project is an Meesho Clone Website developed as part of the `Newton School`
 
 ## Project Overview
 
-The Meesho Clone is a web application that mimics the popular e-commerce platform Meesho. It provides users with a similar user interface and features, allowing them to browse and purchase products online. The project was developed as part of the IBM SkillBuild Internship, aiming to demonstrate skills in web development using HTML, CSS, JavaScript and ReactJs.
+The Meesho Clone is a web application that mimics the popular e-commerce platform Meesho. It provides users with a similar user interface and features, allowing them to browse and purchase products online. The project was developed as part of the Newton School SkillBuild, aiming to demonstrate skills in web development using HTML, CSS, JavaScript and ReactJs.
 
 ## Features
 
@@ -33,12 +33,13 @@ The following technologies were used in the development of this project:
 - HTML: Used for creating the structure and content of web pages.
 - CSS: Used for styling the website and enhancing its visual appearance.
 - JavaScript and ReactJs: Used for implementing interactive features and functionality.
-- 
+- Auth0: used for Login and Logout function
+ 
 ## Setup
 
 To set up the project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/Harshitasanapathi004/Meesho-Clone.git`
+1. Clone the repository: `[git clone https://github.com/Harshitasanapathi004/Meesho-Clone.gi](https://github.com/shadazam08/meesho-colone.git)t`
 2. Navigate to the project directory: `cd Messho-Clone`
 3. Open the project in your preferred code editor.
 
