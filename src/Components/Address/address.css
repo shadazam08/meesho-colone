@@ -88,3 +88,9 @@
   background-color: rgb(159, 32, 151);
   color: #fff;
 }
+@media screen and (max-width: 800px) {
+  #address-section {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
