@@ -13,16 +13,53 @@ const cardDetails = {
   name: "",
 };
 
-const Payment = () => {
+const Payment = ({ handelSave }) => {
   const [inp, setInp] = useState(cardDetails);
   const [color, setColor] = useState("#06A759");
+  const [error, setError] = useState(() => new Array(3).fill(0));
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const { isAuthenticated } = useAuth0();
 
-  const handleClick = (e) => {
+  const handleClick = () => {
     dispatch(increaseStep());
     navigate("/checkout/summary");
+    let res = 0;
+    let flag = true;
+    const updateArr = [...error];
+    for (const item in inp) {
+      if (item === "cardNumber") {
+        for (const add in inp.cardNumber) {
+          if (inp.cardNumber[add].length === 0) {
+            updateArr[res] = 1;
+          } else if (add === "cvv" && inp.cardNumber[add].length < 6) {
+            updateArr[res] = 1;
+          } else {
+            updateArr[res] = 0;
+          }
+          res++;
+          if (res === 5) break;
+        }
+      } else {
+        if (inp[item].length === 0) {
+          updateArr[res] = 1;
+        } else if (item === "name" && inp[item].length < 10) {
+          updateArr[res] = 1;
+        } else {
+          updateArr[res] = 0;
+        }
+        res++;
+      }
+    }
+    for (const item of updateArr) {
+      if (item === 1) {
+        flag = false;
+      }
+    }
+    if (flag) {
+      handelSave(inp);
+    }
+    setError(updateArr);
   };
   const clr = () => {
     if (color === "#06A759") {
@@ -97,20 +134,23 @@ const Payment = () => {
           ></path>
         </svg>
       </div>
-      <form action="">
+      <form action="" onSubmit={handleClick}>
         <h1>Add Payment Method</h1>
         <hr />
         <InputField
           type="text"
           placeholder="1234 5678 9101 2345"
+          required={true}
+          isError={error[0]}
           value={inp.cardNumber}
           onChange={changeHandlear}
-          required={true}
           label="Card Number"
         />
         <InputField
           type="text"
           placeholder="MM / YY"
+          required={true}
+          isError={error[1]}
           value={inp.expire}
           onChange={changeHandlear}
           label="Expiry Date (MM / YY)"
@@ -118,6 +158,8 @@ const Payment = () => {
         <InputField
           type="text"
           placeholder="CVV"
+          required={true}
+          isError={error[2]}
           value={inp.cvv}
           onChange={changeHandlear}
           label="CVV"
@@ -126,10 +168,12 @@ const Payment = () => {
           label="Name on Card"
           type="text"
           placeholder="Name on Card"
+          required={true}
+          isError={error[3]}
           value={inp.name}
           onChange={changeHandlear}
         />
-        <button onClick={handleClick}>Place Order</button>
+        <button>Place Order</button>
       </form>
     </Section>
   ) : (
@@ -150,6 +194,10 @@ let Section = styled.section`
   padding: 20px 15px;
   padding-bottom: 20px;
   border-radius: 3px;
+  @media screen and (max-width: 800px) {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
   div {
     display: flex;
     align-items: center;
