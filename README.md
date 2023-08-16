@@ -1,4 +1,4 @@
-# meesho-colone Website
+# meesho-colone
 
 This project is an Meesho Clone Website developed  as part of the `Newton School SkillBuild`. The website is built using `HTML, CSS, JavaScript, ReactJs, Redux and Auth0` technologies.
 
