@@ -4,7 +4,7 @@ This project is an Meesho Clone Website developed  as part of the `Newton School
 
 ## Deployed link of project
 
-`https://meesho-colone.vercel.app/`
+https://meesho-colone.vercel.app/
 
 ## Table of Contents
 
@@ -57,4 +57,4 @@ Contributions to this project are welcome. If you find any issues or have sugges
 
 ## Thank you note
 
-`Thank you all who is giving precious time to visit our little creative project which is made with lot of efforts.`
+Thank you all who is giving precious time to visit our little creative project which is made with lot of efforts.
