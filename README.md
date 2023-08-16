@@ -1,6 +1,6 @@
 # meesho-colone Website
 
-This project is an Meesho Clone Website developed  as part of the `Newton School SkillBuild`. The website is built using `HTML, CSS, JavaScript and ReactJs, Redux, Auth0` technologies.
+This project is an Meesho Clone Website developed  as part of the `Newton School SkillBuild`. The website is built using `HTML, CSS, JavaScript, ReactJs, Redux and Auth0` technologies.
 
 ## Deployed link of project
 
@@ -14,10 +14,11 @@ https://meesho-colone.vercel.app/
 - [Setup](#setup)
 - [Usage](#usage)
 - [Contributing](#contributing)
+- [Thank you note](#Thank-you-note)
 
 ## Project Overview
 
-The Meesho Clone is a web application that mimics the popular e-commerce platform Meesho. It provides users with a similar user interface and features, allowing them to browse and purchase products online. The project was developed as part of the `Newton School SkillBuild`, aiming to demonstrate skills in web development using `HTML, CSS, JavaScript and ReactJs, Redux, auth0`.
+The Meesho Clone is a web application that mimics the popular e-commerce platform Meesho. It provides users with a similar user interface and features, allowing them to browse and purchase products online. The project was developed as part of the `Newton School SkillBuild`, aiming to demonstrate skills in web development using `HTML, CSS, JavaScript, ReactJs, Redux and auth0`.
 
 ## Features
 
