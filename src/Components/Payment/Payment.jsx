@@ -32,7 +32,7 @@ const Payment = ({ handelSave }) => {
         for (const add in inp.cardNumber) {
           if (inp.cardNumber[add].length === 0) {
             updateArr[res] = 1;
-          } else if (add === "cvv" && inp.cardNumber[add].length < 6) {
+          } else if (add === "cvv" && inp.cardNumber[add].length < 16) {
             updateArr[res] = 1;
           } else {
             updateArr[res] = 0;
@@ -139,7 +139,7 @@ const Payment = ({ handelSave }) => {
         <hr />
         <InputField
           type="text"
-          placeholder="1234 5678 9101 2345"
+          name="cardNumber"
           required={true}
           isError={error[0]}
           value={inp.cardNumber}
@@ -148,7 +148,7 @@ const Payment = ({ handelSave }) => {
         />
         <InputField
           type="text"
-          placeholder="MM / YY"
+          name="expire"
           required={true}
           isError={error[1]}
           value={inp.expire}
@@ -157,7 +157,7 @@ const Payment = ({ handelSave }) => {
         />
         <InputField
           type="text"
-          placeholder="CVV"
+          name="cvv"
           required={true}
           isError={error[2]}
           value={inp.cvv}
@@ -165,13 +165,13 @@ const Payment = ({ handelSave }) => {
           label="CVV"
         />
         <InputField
-          label="Name on Card"
           type="text"
-          placeholder="Name on Card"
+          name="name"
           required={true}
           isError={error[3]}
           value={inp.name}
           onChange={changeHandlear}
+          label="Name on Card"
         />
         <button>Place Order</button>
       </form>
