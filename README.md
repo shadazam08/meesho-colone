@@ -1,6 +1,10 @@
-# Meesho Clone Website
+# meesho-colone Website
 
-This project is an Meesho Clone Website developed. The website is built using `HTML, CSS, JavaScript and ReactJs, Redux, Auth0` technologies.
+This project is an Meesho Clone Website developed  as part of the `Newton School SkillBuild`. The website is built using `HTML, CSS, JavaScript and ReactJs, Redux, Auth0` technologies.
+
+## Deployed link of project
+
+`https://meesho-colone.vercel.app/`
 
 ## Table of Contents
 
@@ -10,11 +14,10 @@ This project is an Meesho Clone Website developed. The website is built using `H
 - [Setup](#setup)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 
-The Meesho Clone is a web application that mimics the popular e-commerce platform Meesho. It provides users with a similar user interface and features, allowing them to browse and purchase products online. The project was developed as part of the Newton School SkillBuild, aiming to demonstrate skills in web development using HTML, CSS, JavaScript and ReactJs.
+The Meesho Clone is a web application that mimics the popular e-commerce platform Meesho. It provides users with a similar user interface and features, allowing them to browse and purchase products online. The project was developed as part of the `Newton School SkillBuild`, aiming to demonstrate skills in web development using `HTML, CSS, JavaScript and ReactJs, Redux, auth0`.
 
 ## Features
 
@@ -30,17 +33,17 @@ The Meesho Clone is a web application that mimics the popular e-commerce platfor
 
 The following technologies were used in the development of this project:
 
-- HTML: Used for creating the structure and content of web pages.
-- CSS: Used for styling the website and enhancing its visual appearance.
-- JavaScript and ReactJs: Used for implementing interactive features and functionality.
-- Auth0: used for Login and Logout function
+- `HTML:` Used for creating the structure and content of web pages.
+- `CSS:` Used for styling the website and enhancing its visual appearance.
+- `JavaScript and ReactJs:` Used for implementing interactive features and functionality.
+- `Auth0:` used for Login and Logout function
  
 ## Setup
 
 To set up the project locally, follow these steps:
 
-1. Clone the repository: `[git clone https://github.com/Harshitasanapathi004/Meesho-Clone.gi](https://github.com/shadazam08/meesho-colone.git)t`
-2. Navigate to the project directory: `cd Messho-Clone`
+1. Clone the repository: `https://github.com/shadazam08/meesho-colone.git`
+2. Navigate to the project directory: `cd meesho-colone`
 3. Open the project in your preferred code editor.
 
 ## Usage
@@ -52,6 +55,6 @@ To run the project locally, open the `index.html` file in a web browser. The web
 
 Contributions to this project are welcome. If you find any issues or have suggestions for improvements, feel free to submit a pull request.
 
-## License
+## Thank you note
 
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code for personal or commercial purposes.
+`Thank you all who is giving precious time to visit our little creative project which is made with lot of efforts.`
