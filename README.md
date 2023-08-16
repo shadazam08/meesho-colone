@@ -14,7 +14,7 @@ https://meesho-colone.vercel.app/
 - [Setup](#setup)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [Thank you note](#Thank-you-note)
+- [Thank you note](#thank-you-note)
 
 ## Project Overview
 
