@@ -47,11 +47,6 @@ To set up the project locally, follow these steps:
 2. Navigate to the project directory: `cd meesho-colone`
 3. Open the project in your preferred code editor.
 
-## Usage
-
-To run the project locally, open the `index.html` file in a web browser. The website will load, and you can start exploring its features.
-
-
 ## Contributing
 
 Contributions to this project are welcome. If you find any issues or have suggestions for improvements, feel free to submit a pull request.
