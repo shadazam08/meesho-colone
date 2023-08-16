@@ -6,7 +6,7 @@ let Section = styled.section`
   grid-template-columns: 1fr 4fr 6fr;
   gap: 1vw;
   margin: 0 4vw;
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 800px) {
     grid-template-columns: 1fr;
     margin: 0;
     gap: 0;
