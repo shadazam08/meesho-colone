@@ -4,7 +4,7 @@ This project is an Meesho Clone Website developed  as part of the `Newton School
 
 ## Deployed link of project
 
-Check out the live version of meesho-colone [meesho-colone](https://meesho-colone.vercel.app/)
+Check out the live version of [Meesho Colone](https://meesho-colone.vercel.app/)
 
 ## Table of Contents
 
