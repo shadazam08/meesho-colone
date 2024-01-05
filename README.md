@@ -47,7 +47,7 @@ To set up the project locally, follow these steps:
    git clone https://github.com/shadazam08/meesho-colone.git
 2. **Navigate to the project directory:**
    ```bash
-   cd AboutMe
+   cd meesho-colon
 3. Open in Your Preferred Code Editor.
 4. **Install dependencies:**
    ```bash
