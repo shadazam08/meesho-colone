@@ -1,10 +1,10 @@
-# meesho-colone
+# Meesho Colone
 
 This project is an Meesho Clone Website developed  as part of the `Newton School SkillBuild`. The website is built using `HTML, CSS, JavaScript, ReactJs, Redux and Auth0` technologies.
 
 ## Deployed link of project
 
-https://meesho-colone.vercel.app/
+Check out the live version of meesho-colone [meesho-colone](https://meesho-colone.vercel.app/)
 
 ## Table of Contents
 
@@ -43,14 +43,26 @@ The following technologies were used in the development of this project:
 
 To set up the project locally, follow these steps:
 
-1. Clone the repository: `https://github.com/shadazam08/meesho-colone.git`
-2. Navigate to the project directory: `cd meesho-colone`
-3. Open the project in your preferred code editor.
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/shadazam08/meesho-colone.git
+2. **Navigate to the project directory:**
+   ```bash
+   cd AboutMe
+3. Open in Your Preferred Code Editor.
+4. **Install dependencies:**
+   ```bash
+   npm install
+5. **Start the development server:**
+   ```bash
+   npm start
+6. Open 
+    ```bash
+    http://localhost:3000
+to view it in your browser.
 
-## Contributing
+**Note:** Ensure that Node.js and npm are installed on your local machine before running the setup commands.
 
-Contributions to this project are welcome. If you find any issues or have suggestions for improvements, feel free to submit a pull request.
-
+----------------------------------------
 ## Thank you note
-
-Thank you all who is giving precious time to visit our little creative project which is made with lot of efforts.
+Thank you for visiting my portfolio! If you have any questions or feedback, feel free to contact me at [m.n81306034@gmail.com](mailto:m.n81306034@gmail.com).
