@@ -13,7 +13,6 @@ Check out the live version of meesho-colone [meesho-colone](https://meesho-colon
 - [Technologies Used](#technologies-used)
 - [Setup](#setup)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [Thank you note](#thank-you-note)
 
 ## Project Overview
