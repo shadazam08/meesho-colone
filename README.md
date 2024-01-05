@@ -13,7 +13,7 @@ Check out the live version of [Meesho Colone](https://meesho-colone.vercel.app/)
 - [Technologies Used](#technologies-used)
 - [Setup](#setup)
 - [Usage](#usage)
-- [Thank you note]()
+- [Thank you note](#)
 
 ## Project Overview
 
@@ -63,5 +63,5 @@ to view it in your browser.
 **Note:** Ensure that Node.js and npm are installed on your local machine before running the setup commands.
 
 ----------------------------------------
-##
+#
 Thank you for visiting my portfolio! If you have any questions or feedback, feel free to contact me at [m.n81306034@gmail.com](mailto:m.n81306034@gmail.com).
