@@ -6,15 +6,6 @@ This project is an Meesho Clone Website developed  as part of the `Newton School
 
 Check out the live version of [Meesho Colone](https://meesho-colone.vercel.app/)
 
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Thank you note](#)
-
 ## Project Overview
 
 The Meesho Clone is a web application that mimics the popular e-commerce platform Meesho. It provides users with a similar user interface and features, allowing them to browse and purchase products online. The project was developed as part of the `Newton School SkillBuild`, aiming to demonstrate skills in web development using `HTML, CSS, JavaScript, ReactJs, Redux and auth0`.
@@ -63,5 +54,4 @@ to view it in your browser.
 **Note:** Ensure that Node.js and npm are installed on your local machine before running the setup commands.
 
 ----------------------------------------
-#
 Thank you for visiting my portfolio! If you have any questions or feedback, feel free to contact me at [m.n81306034@gmail.com](mailto:m.n81306034@gmail.com).
