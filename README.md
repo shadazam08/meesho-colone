@@ -2,7 +2,7 @@
 
 This project is an Meesho Clone Website developed  as part of the `Newton School SkillBuild`. The website is built using `HTML, CSS, JavaScript, ReactJs, Redux and Auth0` technologies.
 
-## Deployed link of project
+## Deployed Project
 
 Check out the live version of [Meesho Colone](https://meesho-colone.vercel.app/)
 
