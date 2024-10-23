@@ -68,7 +68,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div style={{ fontSize: "40px", textAlign: "center" }}>This is a clone project made for practice purposes only</div>
+      <div style={{ fontSize: "30px", textAlign: "center", color: "#9F2089" }}>This is a clone project made for practice purposes only</div>
       <FaAlignJustify id="hidden-menu-open" onClick={modalOpen} />
       <Aside id="hidden-menu">
         <button onClick={modalClose}>X</button>
