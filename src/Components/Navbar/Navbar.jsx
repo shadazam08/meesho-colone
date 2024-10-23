@@ -236,8 +236,9 @@ const Navbar = () => {
               Cart
             </p>
           </Link>
+          <div style={{ fontSize: "30px", textAlign: "center", color: "#9F2089" }}>This is a clone project made for practice purposes only</div>
         </section>
-        <div style={{ fontSize: "30px", textAlign: "center", color: "#9F2089" }}>This is a clone project made for practice purposes only</div>
+
         <section id="bottom" onMouseOver={mouseOver} onMouseOut={mouseOut}>
           <ul>
             {listItems.map((i, index) => (
