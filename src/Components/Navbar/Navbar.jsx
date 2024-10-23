@@ -68,6 +68,7 @@ const Navbar = () => {
 
   return (
     <>
+      <div>This is a clone project made for practice purposes only</div>
       <FaAlignJustify id="hidden-menu-open" onClick={modalOpen} />
       <Aside id="hidden-menu">
         <button onClick={modalClose}>X</button>
