@@ -118,7 +118,9 @@ const Navbar = () => {
         </article>
       </Aside>
       <Nav>
-        <div style={{ fontSize: "30px", textAlign: "center", color: "#9F2089" }}>This is a clone project made for practice purposes only</div>
+        <div style={{ fontSize: "30px", textAlign: "center", color: "#9F2089", backgroundColor: "white" }}>
+          This is a clone project made for practice purposes only
+        </div>
         <section id="top">
           <Link to="/">
             <svg viewBox="0 0 156 36" fill="none" xmlns="http://www.w3.org/2000/svg" width="156" height="36" iconsize="20" class="sc-gswNZR icNpVj">
