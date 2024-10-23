@@ -68,7 +68,6 @@ const Navbar = () => {
 
   return (
     <>
-      <div style={{ fontSize: "30px", textAlign: "center", color: "#9F2089" }}>This is a clone project made for practice purposes only</div>
       <FaAlignJustify id="hidden-menu-open" onClick={modalOpen} />
       <Aside id="hidden-menu">
         <button onClick={modalClose}>X</button>
@@ -92,32 +91,19 @@ const Navbar = () => {
           </Link>
           <Link to="/profile">
             <p id="profile-pic-modal">
-              <img
-                src="https://www.svgrepo.com/show/284856/profile-user.svg"
-                alt="profile user"
-              />
-              {isAuthenticated ? (
-                <h2>Hello {user.name}</h2>
-              ) : (
-                <h2>Hello user</h2>
-              )}
+              <img src="https://www.svgrepo.com/show/284856/profile-user.svg" alt="profile user" />
+              {isAuthenticated ? <h2>Hello {user.name}</h2> : <h2>Hello user</h2>}
             </p>
           </Link>
           <h3>Categories</h3>
           {listItems.map((i, index) => (
             <p className="main-para" onClick={submenuHandler} key={index}>
               {i}
-              <img
-                src="https://www.svgrepo.com/show/60060/down-arrow.svg"
-                alt="down arrow"
-              />
+              <img src="https://www.svgrepo.com/show/60060/down-arrow.svg" alt="down arrow" />
               {data[index].map((items, inde) => (
                 <p className="sub-para" onClick={submenuHandler} key={inde}>
                   {items[0]}
-                  <img
-                    src="https://www.svgrepo.com/show/60060/down-arrow.svg"
-                    alt="down arrow"
-                  />
+                  <img src="https://www.svgrepo.com/show/60060/down-arrow.svg" alt="down arrow" />
                   {items.map((item, ind) => (
                     <Link to={`/products/${i}/${item}`}>
                       <p className="sub-sub-para" key={ind}>
@@ -134,15 +120,7 @@ const Navbar = () => {
       <Nav>
         <section id="top">
           <Link to="/">
-            <svg
-              viewBox="0 0 156 36"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              width="156"
-              height="36"
-              iconsize="20"
-              class="sc-gswNZR icNpVj"
-            >
+            <svg viewBox="0 0 156 36" fill="none" xmlns="http://www.w3.org/2000/svg" width="156" height="36" iconsize="20" class="sc-gswNZR icNpVj">
               <g clip-path="url(#meeshoLogo_svg__a)">
                 <path fill="#fff" d="M0 0h156v36H0z"></path>
                 <path
@@ -158,13 +136,7 @@ const Navbar = () => {
             </svg>
           </Link>
           <div>
-            <svg
-              width="20"
-              height="20"
-              viewBox="0 0 20 20"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_1770_1836)">
                 <path
                   d="M19.7695 18.6698L16.0096 14.9098C17.3296 13.3298 18.1296 11.2999 18.1296 9.07989C18.1296 4.05995 14.0697 0 9.05978 0C4.0599 0 0 4.05995 0 9.07989C0 14.0998 4.0599 18.1598 9.05978 18.1598C11.2897 18.1598 13.3297 17.3498 14.9096 16.0098L18.6695 19.7698C18.9695 20.0698 19.4695 20.0698 19.7695 19.7698C20.0795 19.4698 20.0795 18.9698 19.7695 18.6698ZM9.05978 16.5998C4.91988 16.5998 1.54996 13.2298 1.54996 9.07989C1.54996 4.92994 4.91988 1.55998 9.05978 1.55998C13.1997 1.55998 16.5696 4.92994 16.5696 9.07989C16.5696 13.2298 13.1997 16.5998 9.05978 16.5998Z"
@@ -178,11 +150,7 @@ const Navbar = () => {
               </defs>
             </svg>
             <form action="">
-              <input
-                type="text"
-                onChange={inpHandler}
-                placeholder="Try Saree, Kurti or Search by Product Code"
-              />
+              <input type="text" onChange={inpHandler} placeholder="Try Saree, Kurti or Search by Product Code" />
             </form>
             {/* <svg
               width="20"
@@ -198,14 +166,7 @@ const Navbar = () => {
               {result.map((i, index) => (
                 <Link to={`/product/${i.id}`}>
                   <p id={index} key={index}>
-                    <svg
-                      width="18"
-                      height="18"
-                      className="DFW_E nT46U VETef"
-                      viewBox="0 0 32 32"
-                      version="1.1"
-                      aria-hidden="false"
-                    >
+                    <svg width="18" height="18" className="DFW_E nT46U VETef" viewBox="0 0 32 32" version="1.1" aria-hidden="false">
                       <path d="M22 20c1.2-1.6 2-3.7 2-6 0-5.5-4.5-10-10-10S4 8.5 4 14s4.5 10 10 10c2.3 0 4.3-.7 6-2l6.1 6 1.9-2-6-6zm-8 1.3c-4 0-7.3-3.3-7.3-7.3S10 6.7 14 6.7s7.3 3.3 7.3 7.3-3.3 7.3-7.3 7.3"></path>
                     </svg>
                     <span>{i.name}</span>
@@ -214,27 +175,14 @@ const Navbar = () => {
               ))}
             </article>
           </div>
-          <a
-            target="_blank"
-            href="https://play.google.com/store/apps/details?id=com.meesho.supply&pid=pow_website&c=pow"
-            rel="noreferrer"
-          >
+          <a target="_blank" href="https://play.google.com/store/apps/details?id=com.meesho.supply&pid=pow_website&c=pow" rel="noreferrer">
             <p id="mobile">
-              <img
-                src="https://www.svgrepo.com/show/371405/mobile.svg"
-                alt="mobile vi"
-              />
+              <img src="https://www.svgrepo.com/show/371405/mobile.svg" alt="mobile vi" />
               Download App
               <div>
                 <p>Download From</p>
-                <img
-                  src="https://images.meesho.com/images/pow/homepage/google-play-button.jpg"
-                  alt="google paly"
-                />
-                <img
-                  src="https://images.meesho.com/images/pow/homepage/appstore-button.jpg"
-                  alt="app store"
-                />
+                <img src="https://images.meesho.com/images/pow/homepage/google-play-button.jpg" alt="google paly" />
+                <img src="https://images.meesho.com/images/pow/homepage/appstore-button.jpg" alt="app store" />
               </div>
             </p>
           </a>
@@ -245,17 +193,10 @@ const Navbar = () => {
           <p className="line">|</p>
           <Link to="/profile">
             <p id="profile">
-              <img
-                src="https://www.svgrepo.com/show/284856/profile-user.svg"
-                alt="profile"
-              />
+              <img src="https://www.svgrepo.com/show/284856/profile-user.svg" alt="profile" />
               Profile
               <div>
-                {isAuthenticated ? (
-                  <h2>Hello {user.name}</h2>
-                ) : (
-                  <h2>Hello User</h2>
-                )}
+                {isAuthenticated ? <h2>Hello {user.name}</h2> : <h2>Hello User</h2>}
                 <p>To access your Meesho account</p>
                 {isAuthenticated ? (
                   <button
@@ -287,9 +228,7 @@ const Navbar = () => {
                 className="bi bi-cart-check"
                 viewBox="0 0 16 16"
               >
-                <path d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z">
-                  {""}
-                </path>
+                <path d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z">{""}</path>
                 <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0">
                   {""}
                 </path>
@@ -314,9 +253,7 @@ const Navbar = () => {
                 {items.map((item, ind) => (
                   <Link to={`/products/${listItems[index]}`}>
                     <p key={ind} className={ind === 0 ? "pink-para" : ""}>
-                      <Link to={`products/${listItems[index]}/${items[ind]}`}>
-                        {item}
-                      </Link>
+                      <Link to={`products/${listItems[index]}/${items[ind]}`}>{item}</Link>
                     </p>
                   </Link>
                 ))}
@@ -324,6 +261,9 @@ const Navbar = () => {
             ))}
           </article>
         </section>
+
+        <div style={{ fontSize: "30px", textAlign: "center", color: "#9F2089" }}>This is a clone project made for practice purposes only</div>
+        
       </Nav>
     </>
   );
